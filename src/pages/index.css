@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/rocket.svg);
+  background-size: contain;
+}
+.hlavicka {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.hlavicka h1 {
+  margin: 0;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.kontakt {
+  text-align: center; 
+  color: #333;
+}
+
+
+.obrazek {
+  display: block;
+  margin: 05px auto;
+  max-width: 50%; 
+  border-radius: 50px;
+}
